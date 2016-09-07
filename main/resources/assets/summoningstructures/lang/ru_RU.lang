@@ -1,0 +1,18 @@
+#Items
+item.spawnerDust.name=Декалитиумная Пыль
+item.spawnerIngot.name=Декалитиумный Слиток
+item.manual.name=Мануал
+
+#Blocks
+tile.spawner.name=Ядро Спавнера
+tile.base.name=Базовый Блок
+tile.Bars.name=Декалитиумные Прутья
+tile.zombieSpawner.name=Зомби Спавнер
+tile.pigzombieSpawner.name=Свинозомби Спавнер
+tile.endermanSpawner.name=Эндермен Спавнер
+tile.creeperSpawner.name=Крипер Спавнер
+tile.blazeSpawner.name=Блейз Спавер
+tile.skeletonSpawner.name=Скелет Спавнер
+
+#CreativeTab
+itemGroup.SummoningStructures=Структуры Призыва
