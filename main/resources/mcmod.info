@@ -1,0 +1,18 @@
+[{
+  "modid": "SummoningStructures",
+  "name": "Summoning Structures",
+  "description": "This mod add structures for spawning mobs.",
+  "version": "${version}",
+  "logoFile": "assets/summoningstructures/textures/logo.png",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "FTB_lag" ],
+  "credits": "By FTB_lag",
+  "screenshots": [],
+  "parent": "",
+  "requiredMods": [],
+  "dependencies": [],
+  "dependants": [],
+  "useDependencyInformation": "false"
+}]
