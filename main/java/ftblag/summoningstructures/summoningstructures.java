@@ -3,6 +3,7 @@ package ftblag.summoningstructures;
 import java.util.Random;
 
 import ftblag.summoningstructures.blocks.SSBlocks;
+import ftblag.summoningstructures.config.SSConfigLoader;
 import ftblag.summoningstructures.gui.emptyone;
 import ftblag.summoningstructures.gui.guiManual;
 import ftblag.summoningstructures.gui.guiManualTwo;
@@ -49,6 +50,7 @@ public class summoningstructures implements IFuelHandler, IWorldGenerator {
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) {
+		SSConfigLoader.loadConfigSettings(e.getSuggestedConfigurationFile());
         this.proxy.preInit(e);
 		ssmod_0.instance = this.instance;
 		ssmod_1.instance = this.instance;
